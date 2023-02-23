@@ -515,11 +515,17 @@ video {
 .mt-\[24px\] {
   margin-top: 24px;
 }
+.ml-\[30px\] {
+  margin-left: 30px;
+}
 .mt-\[28px\] {
   margin-top: 28px;
 }
 .mt-\[50px\] {
   margin-top: 50px;
+}
+.mt-\[31px\] {
+  margin-top: 31px;
 }
 .-mt-\[12px\] {
   margin-top: -12px;
@@ -527,11 +533,14 @@ video {
 .-mt-\[50px\] {
   margin-top: -50px;
 }
-.mt-\[31px\] {
-  margin-top: 31px;
+.mt-\[48px\] {
+  margin-top: 48px;
 }
-.ml-\[30px\] {
-  margin-left: 30px;
+.mt-\[26px\] {
+  margin-top: 26px;
+}
+.mt-\[16px\] {
+  margin-top: 16px;
 }
 .flex {
   display: flex;
@@ -554,8 +563,14 @@ video {
 .h-\[24px\] {
   height: 24px;
 }
+.h-\[70px\] {
+  height: 70px;
+}
 .h-\[28px\] {
   height: 28px;
+}
+.h-\[90\%\] {
+  height: 90%;
 }
 .h-\[300px\] {
   height: 300px;
@@ -568,12 +583,6 @@ video {
 }
 .h-\[38px\] {
   height: 38px;
-}
-.h-\[90\%\] {
-  height: 90%;
-}
-.h-\[70px\] {
-  height: 70px;
 }
 .min-h-\[70vh\] {
   min-height: 70vh;
@@ -593,8 +602,14 @@ video {
 .w-\[24px\] {
   width: 24px;
 }
+.w-\[70px\] {
+  width: 70px;
+}
 .w-\[18px\] {
   width: 18px;
+}
+.w-\[90\%\] {
+  width: 90%;
 }
 .w-\[100px\] {
   width: 100px;
@@ -602,17 +617,11 @@ video {
 .w-\[100\%\] {
   width: 100%;
 }
-.w-\[98px\] {
-  width: 98px;
-}
-.w-\[90\%\] {
-  width: 90%;
-}
-.w-\[70px\] {
-  width: 70px;
-}
 .min-w-\[170px\] {
   min-width: 170px;
+}
+.min-w-\[210px\] {
+  min-width: 210px;
 }
 .max-w-\[370px\] {
   max-width: 370px;
@@ -637,6 +646,9 @@ video {
 }
 .flex-col {
   flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .items-start {
   align-items: flex-start;
@@ -697,6 +709,10 @@ video {
   background-color: rgba(0,0,0,0.5);
 }
 .bg-\[\#323F5D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(50 63 93 / var(--tw-bg-opacity));
+}
+.bg-\[\#323f5d\] {
   --tw-bg-opacity: 1;
   background-color: rgb(50 63 93 / var(--tw-bg-opacity));
 }
@@ -783,11 +799,14 @@ video {
 .leading-\[30px\] {
   line-height: 30px;
 }
+.leading-\[32\.4px\] {
+  line-height: 32.4px;
+}
 .leading-\[64\.4px\] {
   line-height: 64.4px;
 }
-.leading-\[32\.4px\] {
-  line-height: 32.4px;
+.leading-\[30\.24px\] {
+  line-height: 30.24px;
 }
 .text-secondary-white {
   --tw-text-opacity: 1;
@@ -942,6 +961,10 @@ video {
 
   .sm\:w-\[80px\] {
     width: 80px;
+  }
+
+  .sm\:max-w-\[250px\] {
+    max-width: 250px;
   }
 
   .sm\:p-16 {
