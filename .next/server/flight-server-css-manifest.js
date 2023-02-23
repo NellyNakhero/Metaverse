@@ -1,1 +1,0 @@
-self.__RSC_CSS_MANIFEST={"__entry_css__":{"/home/nelly/Desktop/workspaced/My Projects/Metaverse/app/page":["/home/nelly/Desktop/workspaced/My Projects/Metaverse/styles/globals.css"]},"/home/nelly/Desktop/workspaced/My Projects/Metaverse/app/layout.js":["/home/nelly/Desktop/workspaced/My Projects/Metaverse/styles/globals.css"]}
